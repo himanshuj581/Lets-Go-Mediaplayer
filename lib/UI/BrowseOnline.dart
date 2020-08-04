@@ -9,7 +9,7 @@ class BrowseOnline extends StatefulWidget {
 
 class BrowseOnlineState extends State<BrowseOnline> {
   static String key =
-      "AIzaSyD9WrKyQ_C4NSWe9rdBAvvvl83vIMHcDsI"; // ** ENTER YOUTUBE API KEY HERE **
+      "Your API_KEY"; // ** ENTER YOUTUBE API KEY HERE **
 
   YoutubeAPI ytApi = new YoutubeAPI(key);
   List<YT_API> ytResult = [];
